@@ -1,39 +1,96 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Roboto+Slab:wght@400;500&display=swap'); 
+*{
+  margin: 0px; 
+  box-sizing: border-box;
+  font-family: 'Roboto Slab',  Helvetica, sans-serif,serif;
+}
+
 .App {
+  width: auto;
+  height: auto;
   text-align: center;
-  background-color: #141526;
+  background-color: #EAF2FA;
+  /* background-color: #141526; */
+  
+
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav{
+  width: 100%;
+  height: 50px;
+ 
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: #EAF2FA;
+  position: sticky;
+  top: -7px;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+/* 
+.nav__container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+ 
+  position: relative;
+} */
+
+/* .nav__container__actions {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  padding-left: 50px;
+  flex: 1;
+} */
+
+.active {
+  font-weight: bold;
+  color: teal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+ 
+  display: flex;
+  gap: 2rem;
+ 
+  font-size: 0.9rem;
+  list-style: none;
+  padding: 0;
 }
+
+li {
+  cursor: pointer;
+  
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+
+/* .nav {
+  float: right;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  
+  
+
+  height: 70px;
+  min-height: 70px;
+ 
+  background-color: #EAF2FA;
+  padding: 0 1rem;
+  
+} */
