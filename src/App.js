@@ -1,57 +1,34 @@
-import { Box } from '@chakra-ui/react'
- import './App.css';
- import { Link } from "react-scroll";
+import './App.css';
+import React from "react";
+import PulseLoader from "react-spinners/PulseLoader";
 
-import Home from './components/Home';
-import About from './components/About';
-import Skills from "./components/Skills" ;
-import Contact from './components/Contact';
+import Navbar from './components/Navbar/Navbar'
+import Home from "./views/Home/Home"
+import About from "./views/About/About"
+import Service from "./views/Service/Service"
+import Project from './views/Project/Project';
+import Contact from "./views/Contact/Contact"
+import Footer from './components/Footer/Footer'
+
 
 
 function App() {
-  return (<>
-   <div className="App">
-      <header className="nav">
-        <nav className="nav__container__actions">
-          <ul>
-            <li>
-              <Link activeClass="active" smooth spy to="Home">
-              Home
-              </Link>
-            </li>
-            <li>
-              <Link activeClass="active" smooth spy to="About">
-              About
-              </Link>
-            </li>
-            <li>
-              <Link activeClass="active" smooth spy to="Skills">
-              Skills
-              </Link>
-            </li>
-            <li>
-              <Link activeClass="active" smooth spy to="Contact">
-              Contact Me
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section  id="Home"> <Home/></section>
-      <section  id="About" style={{marginTop:'20px'}}> <About/> </section>
-      <section id="Skills"  style={{marginTop:'20px'}}> <Skills/></section>
-      <section id="Contact" style={{marginTop:'20px'}}> <Contact/></section>
-    </div>
-  </>
-   
-  
-   
+  return (
+    <>     
+    <div className='body'>      
+      {/* <div id="loading_start" className='loading_start_none'>
+        <p>Loading..</p>
+        <PulseLoader color={"#05e6ee"} size={12} />
+      </div> */}
+      <Navbar/>
+      <Home/>
+      <About/>
+      <Service/>
+      <Project/>
+      <Contact/>
+      <Footer/>
+    </div> 
+    </>
   );
 }
-
 export default App;
- 
-{/* 
-
-
-  */}
