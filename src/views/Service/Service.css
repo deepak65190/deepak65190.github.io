@@ -1,18 +1,47 @@
 .services{
-    min-height: 90vh;
+    min-height: 85vh;
     padding: 1rem 3rem;
+    margin-left: 100px;
+    color: white;
+ text-align: center;
+   
     font-family: "Readex-Pro", sans-serif;
     background-color: var(--black-body);
+   
 }
-.services h1{
-    color: var(--white);
-    text-align: center;
-    padding-bottom: 2rem;
+.allFsD{
+    width: 103%;
+     min-height: 80vh;
+     
+
+   
 }
-.services .boxes{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-columns: repeat(3,auto);
+.Skillicon{
+    display: flex  ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap :20px;
+}
+.skilgap{
+    margin-right: 80px;
+}
+.FBskills{
+    width: 100%;
+    height: 70vh;
+   margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    /* border: 1px solid orange; */
+}
+
+.FBskills>div{
+    width: 48%;
+    height: 100%;
+    border-radius: 10px ;
+box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    
 }
 
 

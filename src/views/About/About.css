@@ -1,6 +1,7 @@
 .about{
     height: 100vh;
     padding: 2rem 0rem;
+    margin-left: 100px;
     font-family: "Readex-Pro", sans-serif;
     background-color: var(--black-body);
 }
@@ -63,6 +64,15 @@
     color: white;
     margin-top: -30px;
 }
+.eduMasai{
+    color: white;
+    margin-top: -80px;
+    font-size: 12px !important;
+}
+.diplomaM{
+    color: white;
+    margin-top: -80px;
+}
 @media only screen and (max-width: 1200px) {
     .about .left-content img{
         padding-top: 5rem;
@@ -118,7 +128,9 @@
         width: 40%;
         height: 40%;
     }
-
+.about{
+    margin: auto;
+}
   }
 @media only screen and (max-width: 400px) {
     .about .right-content a{
@@ -126,7 +138,9 @@
         padding: 0.4rem 0.9rem;
         border-radius: 0.2rem;
     }
-
+.about{
+    margin: auto;
+}
   }
 
 

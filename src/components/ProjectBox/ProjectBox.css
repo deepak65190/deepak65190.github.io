@@ -32,3 +32,15 @@
     margin:auto;
     padding-left: 12px;
 }
+.livep{
+    color: white;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.livep:hover{
+    color: aqua;
+}
+.projectDetails{
+    color: white;
+    margin: 3px;
+}

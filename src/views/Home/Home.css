@@ -1,6 +1,7 @@
 .home{
     height: 90vh;
     padding: 0rem 4.5rem;
+    margin-left: 100px;
     font-family: "Readex-Pro", sans-serif;
 }
 .home-flex{
@@ -84,10 +85,14 @@ border-radius: 50%;
         width: 90%;
         height: 90%;
     }
+    .home{
+        margin: auto;
+    }
   }
 @media only screen and (max-width: 750px) {
     .home{
         height: auto;
+        margin: auto;
     }
     .home p{  
         font-size: 1.2rem;
@@ -130,5 +135,15 @@ border-radius: 50%;
         font-size: 1rem;
         padding: 0.4rem 0.9rem;
         border-radius: 0.2rem;
+    } 
+    .home{
+        margin: auto;
+        margin-bottom: -100px;
+    }
+    .resumeCentre{
+        margin-left:55px;
+    }
+    .imgC{
+        margin-left: -50px;
     }
 }

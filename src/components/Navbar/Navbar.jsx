@@ -38,9 +38,9 @@ function Navbar() {
         $('.nav-mobile-btn span i').toggleClass("btn_active");
     }
 
-    const top = () =>{
-        $('html').animate({scrollTop: 0})
-    }
+    // const top = () =>{
+    //     $('html').animate({scrollTop: 0})
+    // }
     return (
         <>
             <nav>
@@ -62,9 +62,9 @@ function Navbar() {
                 </div>
             </nav>
             <div className='nav-space'></div>
-            <div className="scroll-up-btn" onClick={top}>
+            {/* <div className="scroll-up-btn" onClick={top}>
                 <i className="fas fa-angle-up" ></i>
-            </div>
+            </div> */}
         </>
     )
 }

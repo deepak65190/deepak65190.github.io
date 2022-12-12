@@ -1,8 +1,9 @@
 .project{
     padding: 3rem 3rem;
+    margin-left: 70px;
     font-family: "Readex-Pro", sans-serif;
     background-color: transparent;
-    height: auto;
+    height: auto ;
 }
 .project h1{
     color: var(--white);
@@ -39,7 +40,9 @@
 .owl-dot:hover{
     background: var(--aqua) !important;
 }
-
+.boxes>img{
+width: 10%;
+}
 
 @media only screen and (max-width: 1000px) {
     .project{
