@@ -42,31 +42,90 @@ function Navbar() {
     //     $('html').animate({scrollTop: 0})
     // }
     return (
-        <>
-            <nav>
-                <div className="nav">
-                <Link to="Home" offset={-150} ><h2>Portfo<span>lio.</span></h2></Link>
-                <ul>
-                    <li><Link to="Home" activeClass='active' offset={-150} spy={true} onClick={navclose}><i className='fas fa-home' ></i>Home</Link></li>
-                    <li><Link to="About" activeClass='active' offset={-100} spy={true} onClick={navclose}><i className='fas fa-user' ></i>About</Link></li>
-                    <li><Link to="Services" activeClass='active' offset={-100} spy={true}  onClick={navclose}><i className='fas fa-cogs' ></i>Skills</Link></li>
-                    <li><Link to="Project" activeClass='active' offset={-100} spy={true}  onClick={navclose}><i className='fas fa-archive' ></i>Projects</Link></li>
-                    <li><Link to="Contact" activeClass='active' offset={-100} spy={true}  onClick={navclose}><i className='fas fa-envelope' ></i>Contact</Link></li>
-                </ul>
-                </div>
-                <div className="nav-mobile" >
-                    <Link to="Home" offset={-150} ><h2>Portfo<span>lio.</span></h2></Link>
-                    <div className="nav-mobile-btn" onClick={toggle}>
-                    <span><i className='fas fa-bars'></i></span>
-                    </div>
-                </div>
-            </nav>
-            <div className='nav-space'></div>
-            {/* <div className="scroll-up-btn" onClick={top}>
+      <>
+        <nav>
+          <div className="nav">
+            <Link to="Home" offset={-150}>
+              <h2>
+                Portfo<span>lio.</span>
+              </h2>
+            </Link>
+            <ul>
+              <li>
+                <Link
+                  to="Home"
+                  className="activeHome"
+                  activeClass="active"
+                  offset={-150}
+                  spy={true}
+                  onClick={navclose}
+                >
+                  <h3>Home</h3>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="About"
+                  activeClass="active"
+                  offset={-100}
+                  spy={true}
+                  onClick={navclose}
+                >
+                  <h3>About</h3>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="Services"
+                  activeClass="active"
+                  offset={-100}
+                  spy={true}
+                  onClick={navclose}
+                >
+                  <h3>Skills</h3>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="Project"
+                  activeClass="active"
+                  offset={-100}
+                  spy={true}
+                  onClick={navclose}
+                >
+                  <h3>Projects</h3>
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="Contact"
+                  activeClass="active"
+                  offset={-100}
+                  spy={true}
+                  onClick={navclose}
+                >
+                  <h3>Contact</h3>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="nav-mobile">
+            <Link to="Home" offset={-150}>
+              <h2>
+                Portfo<span>lio.</span>
+              </h2>
+            </Link>
+            <div className="nav-mobile-btn" onClick={toggle}>
+              <span></span>
+            </div>
+          </div>
+        </nav>
+        <div className="nav-space"></div>
+        {/* <div className="scroll-up-btn" onClick={top}>
                 <i className="fas fa-angle-up" ></i>
             </div> */}
-        </>
-    )
+      </>
+    );
 }
 
 export default Navbar

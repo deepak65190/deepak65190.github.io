@@ -118,6 +118,7 @@
     font-weight: bold;
 }
 
+
 @media only screen and (max-width: 1200px) {
     .nav ul{
         left: 8rem;

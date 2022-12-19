@@ -41,6 +41,7 @@ function Project() {
 "
               tack="HTML| CSS | JAVASCRIPT"
               img={img2}
+              link="https://github.com/deepak65190/Location-Tracker"
               link2="https://taupe-cendol-da2cee.netlify.app/"
             />
             <ProjectBox

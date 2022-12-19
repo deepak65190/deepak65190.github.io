@@ -9,25 +9,26 @@ import Service from "./views/Service/Service"
 import Project from './views/Project/Project';
 import Contact from "./views/Contact/Contact"
 import Footer from './components/Footer/Footer'
-
-
+// import { Github } from './components/GithubCalender/Github';
+import Calendery from './components/GithubCalender/Github';
 
 function App() {
   return (
-    <>     
-    <div className='body'>      
-      {/* <div id="loading_start" className='loading_start_none'>
+    <>
+      <div className="body">
+        {/* <div id="loading_start" className='loading_start_none'>
         <p>Loading..</p>
         <PulseLoader color={"#05e6ee"} size={12} />
       </div> */}
-      <Navbar/>
+         <Navbar/>
       <Home/>
       <About/>
       <Service/>
       <Project/>
+        <Calendery />
       <Contact/>
-      <Footer/>
-    </div> 
+      <Footer/> 
+      </div>
     </>
   );
 }

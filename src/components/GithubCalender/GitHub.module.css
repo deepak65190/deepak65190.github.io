@@ -1,0 +1,9 @@
+.githubDiv{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
