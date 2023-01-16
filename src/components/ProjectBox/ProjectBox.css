@@ -44,3 +44,8 @@
     color: white;
     margin: 3px;
 }
+@media only screen and (max-width: 480px) {
+    .projectbox{
+       border: 1px solid red;
+    }
+}

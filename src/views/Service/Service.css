@@ -1,66 +1,74 @@
-.services{
-    min-height: 85vh;
-    padding: 1rem 3rem;
-    margin-left: 100px;
-    color: white;
- text-align: center;
-   
-    font-family: "Readex-Pro", sans-serif;
-    background-color: var(--black-body);
-   
-}
-.allFsD{
-    width: 103%;
-     min-height: 80vh;
-     
+.services {
+  min-height: 85vh;
+  padding: 1rem 3rem;
+  margin-left: 100px;
+  color: white;
+  text-align: center;
 
-   
+  font-family: "Readex-Pro", sans-serif;
+  background-color: var(--black-body);
 }
-.Skillicon{
-    display: flex  ;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap :20px;
+.allFsD {
+  width: 103%;
+  min-height: 80vh;
 }
-.skilgap{
-    margin-right: 80px;
+.Skillicon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-.FBskills{
-    width: 100%;
-    height: 70vh;
-   margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
-    /* border: 1px solid orange; */
+.skilgap {
+  margin-right: 80px;
+}
+.FBskills {
+  width: 100%;
+  height: 70vh;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
 }
 
-.FBskills>div{
-    width: 48%;
-    height: 100%;
-    border-radius: 10px ;
-box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+.FBskills > div {
+  width: 48%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+@media only screen and (max-width: 480px) {
+     .services {
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin-top: -70px;
+    margin-left: 0px;
     
+  }
+  .allFsD {
+    width: auto;
+    height: 700px;
+    margin-top: 300px;
+    margin-bottom: -150px;
+  }
+  .FBskills {
+    display: flex;
+    flex-direction: column;
+  }
+  .FBskills > div {
+    width: auto;
+    height: auto;
+  }
+  .FBskills > div:nth-child(2) {
+    margin-top: 10px;
+  }
+  .skilgap {
+    margin-right: 50px;
+  }
+  .Skillicon {
+    gap: 10px;
+  }
+ 
 }
-
-
-
-@media only screen and (max-width: 1000px) {
-    .services{
-        padding: 1rem 0rem;
-    }
-    .services .boxes{
-        grid-template-columns: 1fr 1fr; 
-        grid-template-columns: repeat(2,auto);
-    }
-}
-
-@media only screen and (max-width: 780px) {
-    .services .boxes{
-        grid-template-columns: 1fr; 
-        grid-template-columns: repeat(1,auto);
-    }
-}
-
-

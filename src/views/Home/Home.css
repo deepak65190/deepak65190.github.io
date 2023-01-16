@@ -121,29 +121,6 @@ border-radius: 50%;
         height: 100%;
     }
   }
-@media only screen and (max-width: 400px) {
-    .home p{  
-        font-size: 1.1rem;
-    }
-    .home h1{
-        font-size: 3.2rem;
-    }
-    .home h2{
-        font-size: 1.6rem;
-    }
-    .home .left-content a{
-        font-size: 1rem;
-        padding: 0.4rem 0.9rem;
-        border-radius: 0.2rem;
-    } 
-    .home{
-        margin: auto;
-        margin-bottom: -100px;
-    }
-    .resumeCentre{
-        margin-left:55px;
-    }
-    .imgC{
-        margin-left: -50px;
-    }
+@media only screen and (max-width: 480px) {
+ 
 }

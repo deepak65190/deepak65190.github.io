@@ -31,10 +31,10 @@ function Home() {
 
             <a
               className="resumeCentre"
-              href="https://drive.google.com/file/d/1fCf6tew3cZQ-UIpllBglzU2rvnCecMke/view?usp=share_link"
-              download="deepak_bisht_resume"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="resume.pdf"
+              download ="Deepak_Bisht_Resume"
+              
+             
             >
               Download Resume
             </a>

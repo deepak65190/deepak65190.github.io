@@ -22,12 +22,12 @@ function App() {
       </div> */}
          <Navbar/>
       <Home/>
-      <About/>
+       <About/>
       <Service/>
       <Project/>
         <Calendery />
       <Contact/>
-      <Footer/> 
+      <Footer/>  
       </div>
     </>
   );

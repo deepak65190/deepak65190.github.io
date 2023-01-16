@@ -12,7 +12,15 @@ function Contact() {
             animation="fade-right"
             class="fas fa-envelope"
             name="Email"
+            name2="deepak65190@gmail.com"
             link="mailto:deepak65190@gmail.com"
+          />
+          <ContactBox
+            animation="fade-right"
+            class="fas fa-phone"
+            name="Contact"
+            name2="9625528158"
+            link="tel:+919625528158"
           />
           <ContactBox
             animation="fade-up"

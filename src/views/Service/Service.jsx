@@ -1,4 +1,4 @@
-import React ,{useEffect} from 'react'
+import React ,{useEffect} from 'react' ;
 import './Service.css'
 import Aos from "aos";
 import { IoLogoCss3 } from "react-icons/io";
@@ -31,32 +31,34 @@ function Service() {
 
         <div className="allFsD">
           <div className="FBskills">
-            <div className="Skillicon">
-              <div>
-                <span className="skilgap">HTML</span>{" "}
-                <AiFillHtml5 size={60} style={{ color: "#DD4B25" }} />
+            
+              <div className="Skillicon">
+                <div>
+                  <span className="skilgap">HTML</span>{" "}
+                  <AiFillHtml5 size={60} style={{ color: "#DD4B25" }} />
+                </div>
+                <div>
+                  <span className="skilgap">CSS</span>
+                  <IoLogoCss3 size={60} style={{ color: "#254BDD" }} />
+                </div>
+                <div>
+                  <span className="skilgap">JAVASCRIPT</span>
+                  <TbBrandJavascript size={60} style={{ color: "#CFB431" }} />
+                </div>
+                <div>
+                  <span className="skilgap">React Js</span>
+                  <GrReactjs size={60} style={{ color: "#5ED3F3" }} />
+                </div>
+                <div>
+                  <span className="skilgap"> REDUX</span>
+                  <SiRedux size={60} style={{ color: "#DD4B25" }} />
+                </div>
+                <div>
+                  <span className="skilgap">Chakra -UI</span>
+                  <SiChakraui size={60} style={{ color: "#5CCAC9" }} />
+                </div>
               </div>
-              <div>
-                <span className="skilgap">CSS</span>
-                <IoLogoCss3 size={60} style={{ color: "#254BDD" }} />
-              </div>
-              <div>
-                <span className="skilgap">JAVASCRIPT</span>
-                <TbBrandJavascript size={60} style={{ color: "#CFB431" }} />
-              </div>
-              <div>
-                <span className="skilgap">React Js</span>
-                <GrReactjs size={60} style={{ color: "#5ED3F3" }} />
-              </div>
-              <div>
-                <span className="skilgap"> REDUX</span>
-                <SiRedux size={60} style={{ color: "#DD4B25" }} />
-              </div>
-              <div>
-                <span className="skilgap">Chakra -UI</span>
-                <SiChakraui size={60} style={{ color: "#5CCAC9" }} />
-              </div>
-            </div>
+            
             <div className="Skillicon">
               <div>
                 <span className="skilgap"> Node JS</span>
