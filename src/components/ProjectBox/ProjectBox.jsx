@@ -17,7 +17,7 @@ function ProjectBox(props) {
       <div className='projectDetails'>{props.detail}</div>
       <div className="details">
         <p>{props.title}</p>
-        <p>Stack used- {props.tack}</p>
+        <p> Teck-Stack used- {props.tack}</p>
         <a href={props.link} target="_blank" rel="noopener noreferrer">
           <i className="fab fa-github"></i>
         </a>

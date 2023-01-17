@@ -23,9 +23,9 @@ function Home() {
             data-aos="fade-down"
             data-aos-delay="2000"
           >
-            <p>Hello, My name is</p>
+            <p className='hellow'>Hello, My name is</p>
             <h1>Deepak Bisht</h1>
-            <h2>
+            <h2 className='webDevAnime'>
               And I'm a <span className="typing"> </span>
             </h2>
 
@@ -45,7 +45,7 @@ function Home() {
             data-aos="fade-up"
             data-aos-delay="2000"
           >
-            <img
+            <img className='profilePic'
               src="https://avatars.githubusercontent.com/u/101567061?v=4"
               alt=""
             />

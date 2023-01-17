@@ -6,18 +6,18 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 
 import ProjectBox from "../../components/ProjectBox/ProjectBox";
-import img7 from "../../images/TextUtils.png";
-import img5 from "../../images/Portfolio.png";
+
+
 import img3 from "../../images/3.png";
-import img4 from "../../images/Gym.png";
+
 import img1 from "../../images/img1.png";
-import img2 from "../../images/1.png";
-import img6 from "../../images/TexttoSpeech.png";
+import img2 from "../../images/1.jpg";
+
 
 function Project() {
   useEffect(() => {
     Aos.init({
-      duration: 500,
+      duration: 300,
     });
   }, []);
 
@@ -42,7 +42,7 @@ function Project() {
               tack="HTML| CSS | JAVASCRIPT"
               img={img2}
               link="https://github.com/deepak65190/Location-Tracker"
-              link2="https://taupe-cendol-da2cee.netlify.app/"
+              link2="https://elegant-dragon-49b412.netlify.app/"
             />
             <ProjectBox
               title="SmatBot"

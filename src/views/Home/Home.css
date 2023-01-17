@@ -122,5 +122,20 @@ border-radius: 50%;
     }
   }
 @media only screen and (max-width: 480px) {
- 
+ .resumeCentre{
+    margin: auto;
+    margin-left: 60px;
+    
+ }
+ .webDevAnime{
+    margin-left: 30px;
+ }
+ .hellow{
+    margin-bottom: -10px;
+    margin-top: 20px;
+ }
+.profilePic{
+    margin-bottom: 30px;
+    
+}
 }

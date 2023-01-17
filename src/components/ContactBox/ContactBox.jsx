@@ -25,10 +25,10 @@ function ContactBox(props) {
           </a>
         </div>
         <div className="center">
-          {/* <p className="center">{props.name} </p>
+           {/* <p className="center">{props.name} </p> */}
           <p className="center" style={{ fontSize: "12px" }}>
             {props.name2}
-          </p> */}
+          </p> 
         </div>
       </div>
     </>

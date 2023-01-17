@@ -7,3 +7,10 @@
     margin-bottom: 50px;
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
+@media only screen and (max-width: 480px){
+    .githubDiv{
+        margin-top: 20px;
+        margin-bottom: -50px;
+        
+    }
+}

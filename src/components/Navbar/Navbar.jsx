@@ -105,6 +105,18 @@ function Navbar() {
                 <h3>Contact</h3>
               </Link>
             </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1fCf6tew3cZQ-UIpllBglzU2rvnCecMke/view?usp=share_link"
+                activeClass="active"
+                offset={-100}
+                spy={true}
+                onClick={navclose}
+              >
+                <h3>Resume</h3>
+                <a></a>
+              </a>
+            </li>
           </ul>
         </div>
         <div className="nav-mobile">

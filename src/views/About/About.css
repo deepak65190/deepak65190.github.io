@@ -132,7 +132,7 @@
     margin: auto;
 }
   }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
     .about .right-content a{
         font-size: 0.8rem;
         padding: 0.4rem 0.9rem;
@@ -140,6 +140,8 @@
     }
 .about{
     margin: auto;
+    margin-top: -100px;
+    
 }
   }
 
