@@ -24,7 +24,7 @@ function Home() {
             data-aos-delay="2000"
           >
             <p className='hellow'>Hello, My name is</p>
-            <h1>Deepak Bisht</h1>
+            <p className="deepakBisht">Deepak Bisht</p>
             <h2 className='webDevAnime'>
               And I'm a <span className="typing"> </span>
             </h2>

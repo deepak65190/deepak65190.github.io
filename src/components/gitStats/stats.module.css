@@ -1,0 +1,36 @@
+.status {
+  width: 35%;
+  height: auto;
+  margin: auto;
+}
+.status > img {
+  width: 100%;
+}
+.streak {
+  width: 62%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .status {
+    width: 80%;
+    height: 100px;
+    margin-top: 80px;
+    margin-bottom: 85px;
+  }
+  .gitstreakImg {
+    width: 100%;
+  }
+  .streak {
+    width: 80%;
+    height: 100px;
+    display: flex;
+
+    flex-direction: column;
+  }
+}

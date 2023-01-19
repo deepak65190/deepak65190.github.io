@@ -19,18 +19,20 @@ function Contact() {
             animation="fade-right"
             class="fas fa-phone"
             name="Contact"
-            name2="9625528158"
+            name2="+919625528158"
             link="tel:+919625528158"
           />
           <ContactBox
             animation="fade-up"
             class="fab fa-github"
             name="Github"
+            name2="deepak65190"
             link="https://github.com/deepak65190"
           />
           <ContactBox
             animation="fade-left"
             class="fab fa-linkedin"
+            name2="Deepak Bisht"
             name="Linkedin"
             link="https://www.linkedin.com/in/deepakbisht01/"
           />

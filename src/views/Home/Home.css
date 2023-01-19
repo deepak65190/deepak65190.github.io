@@ -7,16 +7,16 @@
 .home-flex{
     display: flex;
 }
-.home p{
+.hellow{
     color:var(--white);   
     font-size: 1.6rem;
     padding-left: 0.2rem;
 }
-.home h1{
+/* .home h1{
     padding: 0.2rem 0;
     color: var(--white);
     font-size: 4.5rem;
-}
+} */
 .home h2{
     color: var(--white);
     font-size: 2.2rem;
@@ -53,6 +53,11 @@
 }
 .right-content>img{
 border-radius: 50%;
+}
+.deepakBisht{
+    font-weight: bolder;
+    color: var(--white);
+    font-size: 4.5rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -94,10 +99,10 @@ border-radius: 50%;
         height: auto;
         margin: auto;
     }
-    .home p{  
+    .hellow{  
         font-size: 1.2rem;
     }
-    .home h1{
+    .deepakBisht{
         font-size: 3.5rem;
     }
     .home h2{
@@ -128,7 +133,7 @@ border-radius: 50%;
     
  }
  .webDevAnime{
-    margin-left: 30px;
+    margin-left: 10px;
  }
  .hellow{
     margin-bottom: -10px;
@@ -137,5 +142,9 @@ border-radius: 50%;
 .profilePic{
     margin-bottom: 30px;
     
+}
+.deepakBisht{
+    margin-top: 10px;
+font-size: 2.8rem;
 }
 }

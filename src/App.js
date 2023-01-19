@@ -11,7 +11,7 @@ import Contact from "./views/Contact/Contact"
 import Footer from './components/Footer/Footer'
 // import { Github } from './components/GithubCalender/Github';
 import Calendery from './components/GithubCalender/Github';
-
+import Stats from './components/gitStats/stats';
 function App() {
   return (
     <>
@@ -26,6 +26,7 @@ function App() {
       <Service/>
       <Project/>
         <Calendery />
+        <Stats/>
       <Contact/>
       <Footer/>  
       </div>
